@@ -30,10 +30,20 @@
 }
 
 .container_form_button {
-   margin-top: 1rem;
-   background-color: #4CAF50;
-   color: white;
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    color: white;
     padding: .5rem 2rem;
     border-radius: 1rem;
     width: 100%;
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+.container_form_button:hover {
+    background-color: #45a049;
+}
+
+.container_form_button:active {
+    background-color: #bd2b2b;
 }
